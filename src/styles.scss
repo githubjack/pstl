@@ -1,0 +1,129 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+@import "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css";
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap";
+
+body {
+  margin: 0;
+  font-family: 'Font Awesome 5 Solid';
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.3;
+  background: #f9f9f9;
+  color: #000000;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: center;
+}
+
+.btn-brand,
+.input-brand {
+  margin: 5px;
+  background-color: rgb(245 223 220 / 58%);
+}
+
+.brand {
+  color: rebeccapurple !important;
+}
+
+.web-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+
+  header {
+    padding-top: 1rem;
+    text-align: center;
+
+    h1 {
+      margin: 0 0 1rem 0;
+      font-size: 3rem;
+    }
+
+    h2 {
+      margin: 0 0 2rem 0;
+      font-size: 1.5rem;
+      font-weight: 300;
+    }
+  }
+
+  /*
+*main content
+*/
+
+  main {
+
+
+    .selling-points {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      margin: 0;
+      margin-top: 1rem;
+      padding: 0;
+      list-style: none;
+
+      li {
+        width: 100%;
+        margin: 0 1rem;
+        font-weight: 400;
+        text-align: center;
+
+      }
+    }
+
+    .form-container {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+
+      h2 {
+        text-align: center;
+      }
+
+      .needs-validation {
+        width: 100%;
+
+        .f-row {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          margin-bottom: 1rem;
+
+          .labels {
+            width: 38%;
+            text-align: right;
+            padding-right: 2rem;
+          }
+
+          .inputs {
+            width: 60%;
+            justify-content: space-between;
+            text-align: center;
+            display: flex;
+
+            .custom-field {
+              margin: 0 1rem;
+
+              &:first-child {
+                margin-left: 0;
+              }
+
+              &:last-child {
+                margin-right: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+
+
+  }
+}
